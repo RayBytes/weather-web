@@ -54,7 +54,7 @@ input[type=submit] {
   }
 
   h2#region {
-    position: fixed;
+    position: static;
     text-align: center;
     font-size: 2vw;
     right: 41%;
