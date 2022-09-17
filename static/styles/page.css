@@ -1,0 +1,103 @@
+body {
+    background-color: #000;
+    background-position: top;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+h2#error{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(169, 64, 64);
+  position: fixed;
+  top: 50%;
+}
+
+
+input[name="Input a place"] {
+    position: fixed;
+    text-align: center;
+    right: 25%;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[name="Input a place"]:hover {
+  background-color: rgb(234, 233, 233);
+}
+
+input[type=submit] {
+    width: 50%;
+    right: 25%;
+    top: 20%;
+    position: fixed;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #266e29;
+  }
+
+  h2#region {
+    position: fixed;
+    text-align: center;
+    font-size: 2vw;
+    right: 41%;
+    top: 30%;
+    color: #fff;
+  }
+
+  img {
+    position: fixed;
+    right: 45%;
+    width: 10%;
+    height: auto;
+  }
+
+  h2#feelslike{
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    font-size: 2vw;
+    right: 68%;
+  }
+
+  h2#temp-feelslike{
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    font-size: 5vw;
+    right: 66%;
+  }
+
+  h2#realtemp{
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    font-size: 2vw;
+    right: 20%;
+  }
+
+  h2#temperature{
+    color: #fff;
+    position: fixed;
+    text-align: center;
+    font-size: 5vw;
+    right: 22%;
+  }
+

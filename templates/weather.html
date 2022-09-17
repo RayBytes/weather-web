@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename='styles/page.css') }}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Retriever</title>
+</head>
+<body>
+    <h1>Weather for: {{country}}</h1>
+    <h2 id = 'region'>Region - {{region}}</h2>
+    <h2 id = 'feelslike'>Feels like:</h2>
+    <h2 id = 'temp-feelslike'>{{feelslike}}°</h2>
+
+    <h2 id = 'realtemp'>Temperature (C):</h2>
+    <h2 id = 'temperature'>{{temperature}}°</h2>
+    
+    <img id = 'icon' src="{{imgsrc}}">
+
+</body>
+</html>
